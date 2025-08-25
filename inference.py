@@ -4,6 +4,11 @@ import numpy as np
 from tqdm import tqdm
 import torch
 import gymnasium as gym
+
+from ultralytics import YOLOv10
+import cv2
+import numpy as np
+from sklearn.cluster import KMeans
 from discoverse.robots_env.mmk2_base import MMK2Cfg
 from discoverse.task_base import MMK2TaskBase
 from env import Env
@@ -260,4 +265,5 @@ if __name__ == "__main__":
         deterministic=args.deterministic,
         seed=args.seed
     )
+
 
