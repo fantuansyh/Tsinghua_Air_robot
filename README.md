@@ -5,7 +5,7 @@ Vision-based Proximal Policy Optimization for manipulation tasks in the DISCOVER
 ### Key Features
 
 - Continuous control using joint-level actions from MuJoCo actuator ranges
-- Custom CNN feature extractor integrated into PPO
+- Custom YOLO (CNN or Resnet) feature extractor integrated into PPO
 - Shaped reward with approach/place rewards and smoothness/step penalties
 - TensorBoard logging and simple evaluation script
 
